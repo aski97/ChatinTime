@@ -8,17 +8,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:333761609704:android:35e67d62c64d259c",
+        "mobilesdk_app_id": "1:333761609704:android:29c228b44b1c0661",
         "android_client_info": {
-          "package_name": "com.example.bcp.chatintime"
+          "package_name": "com.company.aski.chatintime"
         }
       },
       "oauth_client": [
         {
-          "client_id": "333761609704-e9ve8ilu31ni542vhmaeq6gramb8iu16.apps.googleusercontent.com",
+          "client_id": "333761609704-itahrnhgt67g7tpshm37djqr2p3ucd6f.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.bcp.chatintime",
+            "package_name": "com.company.aski.chatintime",
             "certificate_hash": "22754ae2bfd9f691b13b9731b2f2c8f60366253d"
           }
         },

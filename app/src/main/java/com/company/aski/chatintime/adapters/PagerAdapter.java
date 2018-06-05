@@ -63,7 +63,8 @@ public class PagerAdapter extends FragmentPagerAdapter {
             case 1:
                 return R.string.tb_preferiti;
 
-                return R.string.tb_unknown;
+             default:
+                    return R.string.tb_unknown;
         }
     }
 }
