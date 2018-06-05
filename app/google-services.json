@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "333761609704",
+    "firebase_url": "https://chatintime-e38d9.firebaseio.com",
+    "project_id": "chatintime-e38d9",
+    "storage_bucket": "chatintime-e38d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333761609704:android:35e67d62c64d259c",
+        "android_client_info": {
+          "package_name": "com.example.bcp.chatintime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333761609704-e9ve8ilu31ni542vhmaeq6gramb8iu16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bcp.chatintime",
+            "certificate_hash": "22754ae2bfd9f691b13b9731b2f2c8f60366253d"
+          }
+        },
+        {
+          "client_id": "333761609704-qr5ip9dqbr6hmv4qpi2gvth53ou3hun9.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "333761609704-qr5ip9dqbr6hmv4qpi2gvth53ou3hun9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4cGwkoNpEz1Tfv7CSxCT1dqTnPuhFu_w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333761609704-qr5ip9dqbr6hmv4qpi2gvth53ou3hun9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
