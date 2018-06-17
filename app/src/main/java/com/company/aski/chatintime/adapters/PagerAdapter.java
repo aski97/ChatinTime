@@ -4,7 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.company.aski.chatintime.ChatFragment;
+import com.company.aski.chatintime.ElencoChatFragment;
 import com.company.aski.chatintime.RichiesteChatFragment;
 import com.company.aski.chatintime.R;
 
@@ -32,7 +32,7 @@ public class PagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                return new ChatFragment();
+                return new ElencoChatFragment();
 
             case 1:
                 return new RichiesteChatFragment();

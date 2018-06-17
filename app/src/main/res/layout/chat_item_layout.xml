@@ -1,6 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:layout_constraintBottom_toBottomOf="parent"
+    card_view:layout_constraintHorizontal_weight="1"
+    card_view:layout_constraintStart_toStartOf="parent"
+    card_view:layout_constraintTop_toTopOf="parent">
 
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgDestinatarioChat"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:contentDescription="@string/profilo_destinatario"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_account_circle_black_24dp" />
+
+            <TextView
+                android:id="@+id/txtDestinatarioChat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:text="Vittorio Belardo"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/txtAnteprimaTestoChat"
+                app:layout_constraintEnd_toStartOf="@+id/txtDataUltimoMess"
+                app:layout_constraintStart_toEndOf="@+id/imgDestinatarioChat"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:layout_constraintVertical_chainStyle="spread_inside" />
+
+            <TextView
+                android:id="@+id/txtAnteprimaTestoChat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="12dp"
+                android:maxLines="1"
+                android:text="Messaggino"
+                android:textColor="@color/messColor"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/txtNuoviMess"
+                app:layout_constraintStart_toEndOf="@+id/imgDestinatarioChat"
+                app:layout_constraintTop_toBottomOf="@+id/txtDestinatarioChat" />
+
+            <TextView
+                android:id="@+id/txtDataUltimoMess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:text="22:31"
+                android:textColor="@color/messColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/txtDestinatarioChat"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtNuoviMess"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/cerchietto_count"
+                android:paddingTop="3dp"
+                android:text="1"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtDataUltimoMess"
+                app:layout_constraintVertical_bias="1.0" />
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
 </android.support.constraint.ConstraintLayout>

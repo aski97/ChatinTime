@@ -17,5 +17,44 @@ public class Chat {
 
     }
 
+    public Chat(String nomeDestinatario, List<Messaggio> messaggi) {
+        this.nomeDestinatario = nomeDestinatario;
+        this.messaggi = messaggi;
+    }
 
+    public String getIdCreatore() {
+        return idCreatore;
+    }
+
+    public String getIdDestinatario() {
+        return idDestinatario;
+    }
+
+    public String getNomeCreatore() {
+        return nomeCreatore;
+    }
+
+    public String getNomeDestinatario() {
+        return nomeDestinatario;
+    }
+
+    public int getOraDistruzione() {
+        return oraDistruzione;
+    }
+
+    public int getMinutiDistruzione() {
+        return minutiDistruzione;
+    }
+
+    public String getDataCreazione() {
+        return dataCreazione;
+    }
+
+    public String getDataConfermaChat() {
+        return dataConfermaChat;
+    }
+
+    public List<Messaggio> getMessaggi() {
+        return messaggi;
+    }
 }

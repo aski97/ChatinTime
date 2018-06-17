@@ -1,8 +1,8 @@
 package com.company.aski.chatintime.datamodel;
 
-class Messaggio {
+public class Messaggio {
 
-    private enum TipoMessaggio {TESTO, AUDIO, IMMAGINE };
+    private enum TipoMessaggio {TESTO, AUDIO, IMMAGINE ;};
 
     private String idMittente;
     private String idMessaggio; //lo crea firebase ogni volta che è creato
@@ -13,5 +13,13 @@ class Messaggio {
     private String nomeCognomeMittente; //si deve vedere se è possibile recuperarlo dall'idMittente
 
     public Messaggio() {
+    }
+
+    public Messaggio(String testoMessaggio) {
+        this.testoMessaggio = testoMessaggio;
+    }
+
+    public String getTestoMessaggio() {
+        return testoMessaggio;
     }
 }

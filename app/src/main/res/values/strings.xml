@@ -10,5 +10,8 @@
     <string name="tb_unknown">XXX</string>
 
     <string name="next_feature">Funzione non ancora disponibile</string>
+    <string name="profilo_destinatario">Profilo Destinatario</string>
+    <string name="menu_impostazioni">Impostazioni</string>
+    <string name="hint_scrivi_mess">Scrivi un messaggio...</string>
 
 </resources>
