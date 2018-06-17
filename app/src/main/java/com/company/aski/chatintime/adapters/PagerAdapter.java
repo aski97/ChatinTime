@@ -5,7 +5,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import com.company.aski.chatintime.ChatFragment;
-import com.company.aski.chatintime.PreferitiFragment;
+import com.company.aski.chatintime.RichiesteChatFragment;
 import com.company.aski.chatintime.R;
 
 public class PagerAdapter extends FragmentPagerAdapter {
@@ -35,7 +35,7 @@ public class PagerAdapter extends FragmentPagerAdapter {
                 return new ChatFragment();
 
             case 1:
-                return new PreferitiFragment();
+                return new RichiesteChatFragment();
 
             default:
                 return null;
@@ -61,7 +61,7 @@ public class PagerAdapter extends FragmentPagerAdapter {
             case 0:
                 return R.string.tb_chat;
             case 1:
-                return R.string.tb_preferiti;
+                return R.string.tb_richieste;
 
              default:
                     return R.string.tb_unknown;
