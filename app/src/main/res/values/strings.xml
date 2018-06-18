@@ -14,4 +14,10 @@
     <string name="menu_impostazioni">Impostazioni</string>
     <string name="hint_scrivi_mess">Scrivi un messaggio...</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="refresh">Aggiorna</string>
+    <string name="tb_contatti">Contatti</string>
+    <string name="search">Cerca</string>
+
 </resources>

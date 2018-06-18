@@ -38,6 +38,7 @@ public class ElencoChatFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_elenco_chat,container,false);
 
+
         btnAddChat=view.findViewById(R.id.btn_add_chat);
         mRecyclerView = view.findViewById(R.id.recyclerChat);
 

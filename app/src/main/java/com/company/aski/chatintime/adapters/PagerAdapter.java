@@ -4,6 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.company.aski.chatintime.ContattiFragment;
 import com.company.aski.chatintime.ElencoChatFragment;
 import com.company.aski.chatintime.RichiesteChatFragment;
 import com.company.aski.chatintime.R;
@@ -13,7 +14,7 @@ public class PagerAdapter extends FragmentPagerAdapter {
     /**
      * Numero di tab e quindi di fragment da visualizzare
      */
-    private int numeroDiTab =2;
+    private int numeroDiTab =3;
 
     /**
      * Costruttore
@@ -36,6 +37,9 @@ public class PagerAdapter extends FragmentPagerAdapter {
 
             case 1:
                 return new RichiesteChatFragment();
+
+            case 2:
+                return new ContattiFragment();
 
             default:
                 return null;
@@ -62,6 +66,8 @@ public class PagerAdapter extends FragmentPagerAdapter {
                 return R.string.tb_chat;
             case 1:
                 return R.string.tb_richieste;
+            case 2:
+                return R.string.tb_contatti;
 
              default:
                     return R.string.tb_unknown;

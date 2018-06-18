@@ -3,6 +3,7 @@ package com.company.aski.chatintime;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.WindowManager;
 
 public class ImpostazioniActivity extends AppCompatActivity {
 
@@ -14,7 +15,10 @@ public class ImpostazioniActivity extends AppCompatActivity {
 
         tbImpostazioni.setTitle(R.string.menu_impostazioni);
         setSupportActionBar(tbImpostazioni);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        if (getSupportActionBar()!=null)
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
 
     }
 
